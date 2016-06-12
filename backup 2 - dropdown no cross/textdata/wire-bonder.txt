@@ -1,0 +1,29 @@
+<option>	Eagle AERO	</option>
+<option>	TwinEagle Xpress GoCu	</option>
+<option>	iHawk Xpress GoCu	</option>
+<option>	Eagle Xpress GoCu	</option>
+<option>	TwinEagle Xtreme GoCu	</option>
+<option>	iHawk Xtreme GoCu	</option>
+<option>	Harrier Xtreme GoCu	</option>
+<option>	Eagle Xtreme GoCu	</option>
+<option>	iHawk Xpress XL	</option>
+<option>	iHawk Xpress	</option>
+<option>	Eagle Xpress	</option>
+<option>	TwinEagle Xtreme	</option>
+<option>	iHawk Xtreme-V	</option>
+<option>	iHawk Xtreme R2R	</option>
+<option>	iHawk Xtreme	</option>
+<option>	Harrier Xtreme	</option>
+<option>	Eagle Xtreme X2L	</option>
+<option>	Eagle Xtreme R2R	</option>
+<option>	Eagle Xtreme	</option>
+<option>	Harrier	</option>
+<option>	iHawk-V	</option>
+<option>	iHawk	</option>
+<option>	HummingBird	</option>
+<option>	TwinEagle	</option>
+<option>	Eagle60-XL	</option>
+<option>	Eagle60-X2L	</option>
+<option>	Eagle60V	</option>
+<option>	Eagle60AP-LD	</option>
+<option>	Eagle60AP	</option>

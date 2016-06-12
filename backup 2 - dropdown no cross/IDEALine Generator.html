@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <title>IDEALine Generator</title>
+  <link rel="shortcut icon" href="../images/icons/asm logo.ico" />
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script src="js/dropdown.js"></script>
+  <script src="js/add-machine-box.js"></script>
+  <script src="js/increment.js"></script>
+
+</head>
+
+<body>
+	
+  <div class="header">
+    <div class="home">
+      <a href="../html/Training Portal.html">
+        <img src="images/home-icon.png" width="30" height="30" align="left" id="home"></a>
+      </div>
+      <div class="width">
+        <h1>IDEALine Generator</h1>
+        <img src="images/ASM_Logo_white.png" width="298" height="45" align="left" id="asmLogo">
+      </div><!-- end of .width -->
+    </div><!-- end of .header -->
+
+    <div class="container">
+    	<div class="width">
+
+        <div class="nameHolder">Hello, Your Name Here</div>
+
+        <h2>Welcome to IDEALine Generator</h2>
+        <h3>Select machines to add to the line</h3>
+
+        <div class="selectContainer">
+
+          <div id="thumbnailContainer">
+
+            <!-- THUMBNAIL 0 -->
+            <div class="thumbnail" id="thumbnail0" >
+              <div class="machineBox" id="machinebox0">
+              <div id="machineEmpty">
+                <img src="images/add-machine-01.png" width="150" height="150">
+              </div> 
+
+              <!-- <div id="machineFilled">
+                <div class="crossIcon0" id="crossIcon">
+                  <img src="images/cross.png" id="cross-icon">
+                </div> 
+                <div class="increment-decrement">
+                  <form id='myform' method='POST' action='#'>
+                   <img src="images/decrement.png" class="qtyminus" align="left" field="quantity">
+                   <input type="text" name="quantity" value="0" class="machineQty" align="center" />
+                   <img src="images/increment.png" class="qtyplus" align="right" field="quantity">
+                 </form>
+                </div>
+
+                   </div> --> <!-- end of #machineFilled -->
+              </div><!-- end of .machineBox -->
+
+              <div class="dropdown" id="dropdown0">
+                <select class="first-choice0">
+                  <option value="base" selected>Type</option>
+                  <option value="ibe">IBE</option>
+                  <option value="wire-bonder">Wire Bond</option>
+                </select>
+                <br>
+                <select class="second-choice0">
+                  <option>Machine</option>
+                </select>
+              </div>
+
+            </div><!-- end of .thumbnail -->
+
+            <!-- THUMBNAIL 1 -->
+            <div class="thumbnail" id="thumbnail1" >
+              <div class="machineBox" id="machinebox1">
+              <div id="machineEmpty">
+                <div class="crossIcon1" id="crossIcon">
+                  <img src="images/cross.png" id="cross-icon">
+                </div> 
+                <img src="images/add-machine-01.png" width="150" height="150">
+              </div> 
+
+              <!-- <div id="machineFilled">
+                <div class="crossIcon1" id="crossIcon">
+                  <img src="images/cross.png" id="cross-icon">
+                </div> 
+                <div class="increment-decrement">
+                  <form id='myform' method='POST' action='#'>
+                   <img src="images/decrement.png" class="qtyminus" align="left" field="quantity">
+                   <input type="text" name="quantity" value="0" class="machineQty" align="center" />
+                   <img src="images/increment.png" class="qtyplus" align="right" field="quantity">
+                 </form>
+                </div>
+
+                   </div> --> <!-- end of #machineFilled -->
+              </div><!-- end of .machineBox -->
+
+              <div class="dropdown" id="dropdown1">
+                <select class="first-choice1">
+                  <option value="base" selected>Type</option>
+                  <option value="ibe">IBE</option>
+                  <option value="wire-bonder">Wire Bond</option>
+                </select>
+                <br>
+                <select class="second-choice1">
+                  <option>Machine</option>
+                </select>
+              </div>
+
+            </div><!-- end of .thumbnail -->
+                        
+              <!-- THUMBNAIL 2 -->
+            <div class="thumbnail" id="thumbnail2" >
+              <div class="machineBox" id="machinebox2">
+              <div id="machineEmpty">
+                <img src="images/add-machine-01.png" width="150" height="150">
+              </div> 
+
+           <!--    <div id="machineFilled">
+                <div class="crossIcon2" id="crossIcon">
+                  <img src="images/cross.png" id="cross-icon">
+                </div> 
+                <div class="increment-decrement">
+                  <form id='myform' method='POST' action='#'>
+                   <img src="images/decrement.png" class="qtyminus" align="left" field="quantity">
+                   <input type="text" name="quantity" value="0" class="machineQty" align="center" />
+                   <img src="images/increment.png" class="qtyplus" align="right" field="quantity">
+                 </form>
+                </div> -->
+
+                   <!-- </div> --> <!-- end of #machineFilled -->
+              </div><!-- end of .machineBox -->
+
+              <div class="dropdown" id="dropdown2">
+                <select class="first-choice2">
+                  <option value="base" selected>Type</option>
+                  <option value="ibe">IBE</option>
+                  <option value="wire-bonder">Wire Bond</option>
+                </select>
+                <br>
+                <select class="second-choice2">
+                  <option>Machine</option>
+                </select>
+              </div>
+
+            </div><!-- end of .thumbnail -->
+
+              <!-- THUMBNAIL 3 -->
+            <div class="thumbnail" id="thumbnail3" >
+              <div class="machineBox" id="machinebox3">
+              <div id="machineEmpty">
+                <img src="images/add-machine-01.png" width="150" height="150">
+              </div> 
+
+           <!--    <div id="machineFilled">
+                <div class="crossIcon3" id="crossIcon">
+                  <img src="images/cross.png" id="cross-icon">
+                </div> 
+                <div class="increment-decrement">
+                  <form id='myform' method='POST' action='#'>
+                   <img src="images/decrement.png" class="qtyminus" align="left" field="quantity">
+                   <input type="text" name="quantity" value="0" class="machineQty" align="center" />
+                   <img src="images/increment.png" class="qtyplus" align="right" field="quantity">
+                 </form>
+                </div> -->
+
+                   <!-- </div> --> <!-- end of #machineFilled -->
+              </div><!-- end of .machineBox -->
+
+              <div class="dropdown" id="dropdown3">
+                <select class="first-choice3">
+                  <option value="base" selected>Type</option>
+                  <option value="ibe">IBE</option>
+                  <option value="wire-bonder">Wire Bond</option>
+                </select>
+                <br>
+                <select class="second-choice3">
+                  <option>Machine</option>
+                </select>
+              </div>
+
+            </div><!-- end of .thumbnail -->
+
+              <!-- THUMBNAIL 4 -->
+            <div class="thumbnail" id="thumbnail4" >
+              <div class="machineBox" id="machinebox4">
+              <div id="machineEmpty">
+                <img src="images/add-machine-01.png" width="150" height="150">
+              </div> 
+
+           <!--    <div id="machineFilled">
+                <div class="crossIcon4" id="crossIcon">
+                  <img src="images/cross.png" id="cross-icon">
+                </div> 
+                <div class="increment-decrement">
+                  <form id='myform' method='POST' action='#'>
+                   <img src="images/decrement.png" class="qtyminus" align="left" field="quantity">
+                   <input type="text" name="quantity" value="0" class="machineQty" align="center" />
+                   <img src="images/increment.png" class="qtyplus" align="right" field="quantity">
+                 </form>
+                </div> -->
+
+                   <!-- </div> --> <!-- end of #machineFilled -->
+              </div><!-- end of .machineBox -->
+
+              <div class="dropdown" id="dropdown4">
+                <select class="first-choice4">
+                  <option value="base" selected>Type</option>
+                  <option value="ibe">IBE</option>
+                  <option value="wire-bonder">Wire Bond</option>
+                </select>
+                <br>
+                <select class="second-choice4">
+                  <option>Machine</option>
+                </select>
+              </div>
+
+            </div><!-- end of .thumbnail -->
+
+              <!-- THUMBNAIL 5 -->
+            <div class="thumbnail" id="thumbnail5" >
+              <div class="machineBox" id="machinebox5">
+              <div id="machineEmpty">
+                <img src="images/add-machine-01.png" width="150" height="150">
+              </div> 
+
+           <!--    <div id="machineFilled">
+                <div class="crossIcon5" id="crossIcon">
+                  <img src="images/cross.png" id="cross-icon">
+                </div> 
+                <div class="increment-decrement">
+                  <form id='myform' method='POST' action='#'>
+                   <img src="images/decrement.png" class="qtyminus" align="left" field="quantity">
+                   <input type="text" name="quantity" value="0" class="machineQty" align="center" />
+                   <img src="images/increment.png" class="qtyplus" align="right" field="quantity">
+                 </form>
+                </div> -->
+
+                   <!-- </div> --> <!-- end of #machineFilled -->
+              </div><!-- end of .machineBox -->
+
+              <div class="dropdown" id="dropdown5">
+                <select class="first-choice5">
+                  <option value="base" selected>Type</option>
+                  <option value="ibe">IBE</option>
+                  <option value="wire-bonder">Wire Bond</option>
+                </select>
+                <br>
+                <select class="second-choice5">
+                  <option>Machine</option>
+                </select>
+              </div>
+
+            </div><!-- end of .thumbnail -->
+
+              <!-- THUMBNAIL 6 -->
+            <div class="thumbnail" id="thumbnail6" >
+              <div class="machineBox" id="machinebox6">
+              <div id="machineEmpty">
+                <img src="images/add-machine-01.png" width="150" height="150">
+              </div> 
+
+           <!--    <div id="machineFilled">
+                <div class="crossIcon6" id="crossIcon">
+                  <img src="images/cross.png" id="cross-icon">
+                </div> 
+                <div class="increment-decrement">
+                  <form id='myform' method='POST' action='#'>
+                   <img src="images/decrement.png" class="qtyminus" align="left" field="quantity">
+                   <input type="text" name="quantity" value="0" class="machineQty" align="center" />
+                   <img src="images/increment.png" class="qtyplus" align="right" field="quantity">
+                 </form>
+                </div> -->
+
+                   <!-- </div> --> <!-- end of #machineFilled -->
+              </div><!-- end of .machineBox -->
+
+              <div class="dropdown" id="dropdown6">
+                <select class="first-choice6">
+                  <option value="base" selected>Type</option>
+                  <option value="ibe">IBE</option>
+                  <option value="wire-bonder">Wire Bond</option>
+                </select>
+                <br>
+                <select class="second-choice6">
+                  <option>Machine</option>
+                </select>
+              </div>
+
+            </div><!-- end of .thumbnail -->
+
+              <!-- THUMBNAIL 7 -->
+            <div class="thumbnail" id="thumbnail7" >
+              <div class="machineBox" id="machinebox7">
+              <div id="machineEmpty">
+                <img src="images/add-machine-01.png" width="150" height="150">
+              </div> 
+
+           <!--    <div id="machineFilled">
+                <div class="crossIcon7" id="crossIcon">
+                  <img src="images/cross.png" id="cross-icon">
+                </div> 
+                <div class="increment-decrement">
+                  <form id='myform' method='POST' action='#'>
+                   <img src="images/decrement.png" class="qtyminus" align="left" field="quantity">
+                   <input type="text" name="quantity" value="0" class="machineQty" align="center" />
+                   <img src="images/increment.png" class="qtyplus" align="right" field="quantity">
+                 </form>
+                </div> -->
+
+                   <!-- </div> --> <!-- end of #machineFilled -->
+              </div><!-- end of .machineBox -->
+
+              <div class="dropdown" id="dropdown7">
+                <select class="first-choice7">
+                  <option value="base" selected>Type</option>
+                  <option value="ibe">IBE</option>
+                  <option value="wire-bonder">Wire Bond</option>
+                </select>
+                <br>
+                <select class="second-choice7">
+                  <option>Machine</option>
+                </select>
+              </div>
+
+            </div><!-- end of .thumbnail -->
+
+                      </div><!-- end of .thumbnailContainer -->  
+
+                      <div class="addMore">
+                        <div id="addMoreButton">
+                          <img src="images/add-more.png" width="15" height="15">
+                        </div>
+                      </div>
+
+                    </div><!-- end of .selectContainer -->
+
+                    <div class="generateButton">
+                      <a href="#">Click to Generate</a>
+                    </div>   
+
+
+
+
+                  </div><!-- end of .width -->
+
+
+
+                  <div class="clearfooter"></div>
+
+                </div><!-- end of container -->
+    <!-- <div class="footer">
+            <div class="width">
+                <div class="footer-bottom">
+                  <p><a href="http://www.asmpacific.com" class="footer-bottom" target="_blank">
+                  ASM Technology Singapore Pte Ltd.</a>
+                  </p>
+                  Best viewed in Internet Explorer 8 and higher or Chrome <br />
+                </div>
+            </div>
+          </div> --> <!-- end of footer -->
+        </body>
+        </html>
